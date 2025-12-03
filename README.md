@@ -52,6 +52,9 @@ Because, although optional, HTTP is supported by the module.
 ## Can you *create* websockets using the script?
 Not yet, but is a planned feature, for now you can just connect
 
+## Will this end up as another failed project because it was just a concept
+No, it actually works
+
 ## Disclaimer
 
 This project is an independent project and is not affiliated with, endorsed by, or sponsored by the WebSocket protocol authors, Roblox Corporation, or any other organization associated with these technologies. WebSocket is an open standard defined by the IETF (RFC 6455). Any logos, names, or trademarks used are for identification purposes only and remain the property of their respective owners.
