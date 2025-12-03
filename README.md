@@ -1,0 +1,54 @@
+<p align="center">
+  <a href="https://github.com/RoSocket/rosocket">
+  	<img width="600" src="https://raw.githubusercontent.com/somethingsimade/roblox-ws/refs/heads/main/full.png">
+  </a>
+</p>
+
+---
+
+roblox-ws is a Roblox WebSocket system that works fully on the client.
+
+## When to use (comparing to other methods)
+
+| Use | Other WebSocket scripts | roblox-ws |
+|:--------|:--------------|:---------------|
+| **Client WebSockets** |X No|✓ Yes|
+| **Server WebSockets** |✓ Yes|X No|
+| **Rate limited** |✓ Yes|X No|
+| **Vulnerable** |X No|✓ Yes (Read below)|
+
+## Why is it vulnerable?
+`roblox-ws` works by running **a separate process** on your computer to bridge the network connection, this means that the data passed between the client and the process is **not sandboxed**
+
+A vulnerability in the local process could be exploited by a Roblox experience, which could expose you to unauthorized code execution, **you should only run this while on trusted Roblox experiences**
+
+# **IF YOU ARE AWARE OF A VULNERABILITY ON THIS PROJECT, REPORT IT IMMEDIATELY IN: https://github.com/somethingsimade/roblox-ws/issues**
+
+## Is it released yet?
+No, private
+
+## How to use?
+
+```lua
+local WebSocket = require(game:GetService("ReplicatedStorage").roblox_ws).WebSocket
+--// ^ Or whatever the path to your module is, just paste main.lua inside
+
+local ws = WebSocket.connect("ws://localhost:8080")
+
+ws.OnMessage:Connect(function(message)
+	print(message)
+end)
+
+ws.OnClose:Connect(function()
+	warn("Closed")
+end)
+
+ws:Send("Hello World!")
+```
+
+## Can you *create* websockets using the script?
+Not yet, but is a planned feature, for now you can just connect
+
+## Disclaimer
+
+This project is an independent project and is not affiliated with, endorsed by, or sponsored by the WebSocket protocol authors, Roblox Corporation, or any other organization associated with these technologies. WebSocket is an open standard defined by the IETF (RFC 6455). Any logos, names, or trademarks used are for identification purposes only and remain the property of their respective owners.
