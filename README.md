@@ -6,7 +6,7 @@
 
 ---
 
-roblox-ws is a Roblox WebSocket system that works fully on the client.
+roblox-ws is a Roblox WebSocket system that works fully on the client, with zero use of exploits or injection.
 
 ## When to use (comparing to other methods)
 
@@ -45,6 +45,9 @@ end)
 
 ws:Send("Hello World!")
 ```
+
+## Why is the WebSocket table returned separately on the module
+Because, although optional, HTTP is supported by the module.
 
 ## Can you *create* websockets using the script?
 Not yet, but is a planned feature, for now you can just connect
