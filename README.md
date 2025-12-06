@@ -28,7 +28,7 @@ A vulnerability in the process could be exploited by a Roblox experience, which 
 No, private
 
 ## Why isn't it released if it fully works?
-I'm making sure I can code it myself, instead of relying on AI. I don't want to release something I have put zero effort in, apart from the idea I had.
+I'm making sure I can code it myself, instead of relying on AI. I don't want to release something I have put zero effort into, aside from the idea I had.
 
 ## How to use?
 
