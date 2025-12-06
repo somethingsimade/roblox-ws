@@ -35,7 +35,7 @@ No, private
 Both.
 
 ## Is it supported by Fishstrap, Bloxstrap or other mods?
-You will be able to customize the path of the client when released
+You will be able to customize the path of the client when released.
 
 ## Why isn't it released if it fully works?
 I'm making sure I can code it myself, instead of relying on AI. I don't want to release something I have put zero effort into, aside from the idea I had.
