@@ -60,4 +60,4 @@ No, it actually works
 
 ## Disclaimer
 
-This project is an independent project and is not affiliated with, endorsed by, or sponsored by the WebSocket protocol authors, Roblox Corporation, or any other organization associated with these technologies. WebSocket is an open standard defined by the IETF (RFC 6455). Any logos, names, or trademarks used are for identification purposes only and remain the property of their respective owners.
+This is an independent, unofficial project and is not affiliated with, endorsed by, or sponsored by Roblox Corporation. WebSocket is an IETF standard (RFC 6455). “Roblox” is a trademark of Roblox Corporation. Other trademarks are the property of their respective owners.
