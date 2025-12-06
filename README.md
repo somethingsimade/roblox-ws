@@ -4,7 +4,7 @@
   </a>
 </p>
 
-*credits to [rosocket](https://github.com/RoSocket/rosocket) for the logo html for the readme*
+*credits to [rosocket](https://github.com/RoSocket/rosocket) for the logo placement html on the readme*
 
 ---
 
