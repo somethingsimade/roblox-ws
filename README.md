@@ -1,8 +1,10 @@
 <p align="center">
-  <a href="https://github.com/RoSocket/rosocket">
+  <a href="https://github.com/somethingsimade/roblox-ws">
   	<img width="600" src="https://raw.githubusercontent.com/somethingsimade/roblox-ws/refs/heads/main/full.png">
   </a>
 </p>
+
+*credits to [rosocket](https://github.com/RoSocket/rosocket) for the logo html for the readme*
 
 ---
 
