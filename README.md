@@ -6,7 +6,7 @@
 
 ---
 
-roblox-ws is a Roblox WebSocket system that works fully on the client, with zero use of exploits or injection.
+roblox-ws is a Roblox WebSocket system that runs **entirely on the client** on the client, with no use of exploits or injection.
 
 ## When to use (comparing to other methods)
 
@@ -18,14 +18,17 @@ roblox-ws is a Roblox WebSocket system that works fully on the client, with zero
 | **Vulnerable** |X No|✓ Yes (Read below)|
 
 ## Why is it vulnerable?
-`roblox-ws` works by running **a separate process** on your computer to bridge the network connection, this means that **the data passed between the client and the process is not sandboxed**
+`roblox-ws` works by running **a separate process** on your computer to bridge the network connection, which means that **the data passed between the client and the process is not sandboxed**
 
-A vulnerability in the process could be exploited by a Roblox experience, which could expose you to unauthorized code execution, **you should only run this while on a trusted Roblox experience**
+A vulnerability in the process could be exploited by a Roblox experience, which could expose you to unauthorized code execution, **you should only use this while on a trusted Roblox experience**
 
 # **IF YOU ARE AWARE OF A VULNERABILITY ON THIS PROJECT, REPORT IT IMMEDIATELY IN: https://github.com/somethingsimade/roblox-ws/issues**
 
 ## Is it released yet?
 No, private
+
+## Why isn't it released if it fully works?
+I'm making sure I can code it myself, instead of relying on AI. I don't want to release something I have put zero effort in, apart from the idea I had.
 
 ## How to use?
 
@@ -46,13 +49,13 @@ end)
 ws:Send("Hello World!")
 ```
 
-## Why is the WebSocket table returned separately on the module
-Because, although optional, HTTP is supported by the module.
+## Why is the WebSocket table returned separately when you require the module
+Because, although optional, HTTP will be supported by the module.
 
 ## Can you *create* websockets using the script?
 Not yet, but is a planned feature, for now you can just connect
 
-## Will this end up as another failed project because it was just a concept
+## Will this end up as another failed project, because it was just a concept?
 No, it actually works
 
 ## Disclaimer
