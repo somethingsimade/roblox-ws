@@ -4,7 +4,7 @@
   </a>
 </p>
 
-*credits to [rosocket](https://github.com/RoSocket/rosocket) for the logo placement html on the readme*
+*Credits to [rosocket](https://github.com/RoSocket/rosocket) for the logo placement html in the README.*
 
 ---
 
@@ -20,11 +20,13 @@ roblox-ws is a Roblox WebSocket system that runs **entirely on the client**, wit
 | **Vulnerable** |X No|⚠️Yes (Read below)|
 
 ## Why is it vulnerable?
-As every good thing comes with risks, `roblox-ws` works by running **a separate process** on your computer to bridge the network connection, which means that **the data passed between the client and the process is not sandboxed**
+As every good thing comes with risks, `roblox-ws` works by running **a separate process** on your computer to bridge the network connection, which means that **the data passed between the client and the process is not sandboxed**.
 
-A vulnerability in the process could be exploited by a Roblox experience, which could expose you to unauthorized code execution, **you should only use this while on a trusted Roblox experience**. This also means that your **IP address** can be accessed by the client, **ONLY** enter trusted experiences while using this.
+A vulnerability in the process could be exploited by a Roblox experience, which could expose you to unauthorized code execution, **only use this while playing a trusted Roblox experience**, or of course, your own.
 
-Using this with Roblox exploits, along with risking a ban, it can abuse the way this method moves data from Roblox to the local process, exposing you to more vulnerabilities.
+This also means that your **IP address** can be accessed by making a request to an external server, **ONLY** enter trusted experiences while using it. As a partial mitigation, you can toggle whether the bridge allows external WebSockets, local WebSockets, or both. However, if you toggle HTTP requests on, this will be basically useless, since it can access any external server.
+
+Using this with Roblox exploits, along with risking a ban, the exploit can abuse the way this method moves data from Roblox to the local process, exposing you to more vulnerabilities.
 
 If managed correctly, you can safely use the method.
 
