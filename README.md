@@ -6,7 +6,7 @@
 
 ---
 
-roblox-ws is a Roblox WebSocket system that runs **entirely on the client** on the client, with no use of exploits or injection.
+roblox-ws is a Roblox WebSocket system that runs **entirely on the client**, with no use of exploits or injection.
 
 ## When to use (comparing to other methods)
 
