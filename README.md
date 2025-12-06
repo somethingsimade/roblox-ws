@@ -21,7 +21,9 @@ roblox-ws is a Roblox WebSocket system that runs **entirely on the client**, wit
 As every good thing comes with risks, `roblox-ws` works by running **a separate process** on your computer to bridge the network connection, which means that **the data passed between the client and the process is not sandboxed**
 
 A vulnerability in the process could be exploited by a Roblox experience, which could expose you to unauthorized code execution, **you should only use this while on a trusted Roblox experience**. This also means that your **IP address** can be accessed by the client, **ONLY** enter trusted experiences while using this.
+
 Using this with Roblox exploits, along with risking a ban, it can abuse the way the way this method moves data from Roblox to the local process, exposing you to more vulnerabilities.
+
 If managed correctly, you can safely use the method.
 
 # **IF YOU ARE AWARE OF A VULNERABILITY ON THIS PROJECT, REPORT IT IMMEDIATELY IN: https://github.com/somethingsimade/roblox-ws/issues**
