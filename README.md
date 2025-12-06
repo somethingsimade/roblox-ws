@@ -24,7 +24,7 @@ As every good thing comes with risks, `roblox-ws` works by running **a separate 
 
 A vulnerability in the process could be exploited by a Roblox experience, which could expose you to unauthorized code execution, **only use this while playing a trusted Roblox experience**, or of course, your own.
 
-This also means that your **IP address** can be accessed by making a request to an external server, **ONLY** enter trusted experiences while using it. As a partial mitigation, you can toggle whether the bridge allows external WebSockets, local WebSockets, or both. However, if you toggle HTTP requests on, this will be basically useless, since it can access any external server.
+This also means that your **IP address** can be exposed by making a request to an external server, **ONLY** enter trusted experiences while using it. As a partial mitigation, you can toggle whether the bridge allows external WebSockets, local WebSockets, or both. However, if you toggle HTTP requests on, this will be basically useless, since it can access any external server.
 
 Using this with Roblox exploits, along with risking a ban, the exploit can abuse the way this method moves data from Roblox to the local process, exposing you to more vulnerabilities.
 
